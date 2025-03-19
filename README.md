@@ -5,6 +5,10 @@
 ## 脚本概述
 
 ### `background_generator.py`
+
+![image](https://github.com/user-attachments/assets/b9f1e85d-a87c-411b-8070-ffb8efdf9346)
+
+
 - **目的**：根据用户提示和图像上下文为图像生成新背景。
 - **功能**：
   - 简单模式，用于直接生成背景。
@@ -12,6 +16,10 @@
   - 正常模式，生成包含指定元素的背景。
 
 ### `multi_generator.py`
+
+![image](https://github.com/user-attachments/assets/f33596f4-b793-4c7d-b9f3-5932979ff289)
+
+
 - **目的**：用相同 prompts 生成多张图像，测试 Gemini 的稳定性
 - **功能**：
   - 允许指定会话数量和每个会话生成的图像数量。
